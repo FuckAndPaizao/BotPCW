@@ -285,7 +285,7 @@ async function starts() {
 				Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
 				},
 				only: {
-					group: '[⚠️] Impossível utilizar fora do grupo da ⏤͟͞𝐁𝐎𝐓⛧𝐏𝐂𝐖✘',
+					group: '[⚠️] Impossível utilizar fora do grupo da ⏤͟͞𝐏𝐂𝐖✘',
 					benned: 'Banido by botzin KKKKKKK',
 					
 					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmão. Você não está registrado como amigo de PCW. Registre-se para fazer amizade com o bot PCW por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar PCW|17\n\n──「 PCW BOT 」──`,
@@ -295,11 +295,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5527997179500@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"5527997179500@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5527997179500@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5527997179500@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]
-			const frendsowner = ["5527997179500@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]//ubah nomor lo
+			const ownerNumber = ["5511994103009@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"5511994103009@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["5511994103009@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5511994103009@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]
+			const frendsowner = ["5511994103009@s.whatsapp.net","351926456359@s.whatsapp.net","553598064038@s.whatsapp.net"]//ubah nomor lo
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -524,7 +524,7 @@ if (text.includes("placa"))
 	
 	if (messagesC.includes("FuckTR3M")){
 			client.updatePresence(from, Presence.composing)
-			reply("Cura Random")
+			reply("O mais Pika das Webinson")
 	}
 	
 		if (messagesC.includes("vsfd")){
