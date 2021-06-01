@@ -21,7 +21,7 @@ BOT: 𝑷𝑪𝑾¹⁵⁷ V1
 ║
 ╠O instagram do meu criador caso queira contatar ele
 ║
-╠Link:
+╠Link: instagram.com/endrewpereti?utm_medium=copy_link
 ║
 ║
 ╚══════〘 ⏤͟͞𝐁𝐎𝐓⛧𝐏𝐂𝐖✘ 〙
