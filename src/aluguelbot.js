@@ -12,9 +12,10 @@ const aluguelbot = (prefix) => {
 ╠➥ *VANTAGENS*
 ╠➥ *http://wa.me/+351926456359*
 ║
-╚═〘  CAUSS  〙
+╚═〘  ⏤͟͟͞͞𝑭𝑼𝑪𝑲⛧𝑻𝑹𝑬𝑴✘  〙
 `
 }
-exports.iklan = aluguelbot
+exports.aluguelbot = aluguelbot
+
 
 
