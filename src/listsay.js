@@ -1,4 +1,4 @@
-const listsay = () => { 
+const listsay = (prefix) => { 
 	return `
 	
 	-Sua lista`
