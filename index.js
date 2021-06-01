@@ -810,10 +810,10 @@ break
 					if (!isGroupAdmins) return reply('Por um acaso, você é admin da 𝑷𝑪𝑾¹⁵⁷? KKKKKKKK')
 					client.sendMessage(from, canal(prefix), text) 
 					break
-					case 'pcwinsta':
+					case 'insta':
 				    if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply('Por um acaso, você é admin da 𝑷𝑪𝑾¹⁵⁷? KKKKKKKK')
-					client.sendMessage(from, pcwinsta(prefix), text) 
+					client.sendMessage(from, insta(prefix), text) 
 					break
 				case 'termux':
 					meme = await kagApi.memes()
