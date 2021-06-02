@@ -7,7 +7,7 @@ const {
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { help } = require('./src/help')
-const { pcwinsta } = require('./src/pcwinsta')
+const { insta } = require('./src/insta')
 const { canal } = require('./src/canal')
 const { base } = require('./src/base')
 const { pack } = require('./src/pack')
@@ -35,9 +35,9 @@ const fetch = require('node-fetch')
 const { cekvip } = require('./src/cekvip')
 const { TobzApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const { VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
-const { daftarvip } = require('./src/daftarvip')
-const { iklan } = require('./src/iklan')
-const { daftatvip } = require('./src/daftarvip')
+const { daftatvip } = require('./src/daftatvip')
+const { aluguelbot } = require('./src/aluguelbot')
+const { daftatvip } = require('./src/daftatvip')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const imgbb = require('imgbb-uploader')
@@ -522,9 +522,9 @@ if (text.includes("placa"))
 			reply("vem tomar nescau comigo?")
 	}
 	
-	if (messagesC.includes("FuckTR3M")){
+	if (messagesC.includes("Fuck")){
 			client.updatePresence(from, Presence.composing)
-			reply("O mais Pika das Webinson")
+			reply("O meu dono FUCKTR3M é o mais Pika das Webinson")
 	}
 	
 		if (messagesC.includes("vsfd")){
@@ -810,10 +810,10 @@ break
 					if (!isGroupAdmins) return reply('Por um acaso, você é admin da 𝑷𝑪𝑾¹⁵⁷? KKKKKKKK')
 					client.sendMessage(from, canal(prefix), text) 
 					break
-					case 'pcwinsta':
+					case 'insta':
 				    if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply('Por um acaso, você é admin da 𝑷𝑪𝑾¹⁵⁷? KKKKKKKK')
-					client.sendMessage(from, pcwinsta(prefix), text) 
+					client.sendMessage(from, insta(prefix), text) 
 					break
 				case 'termux':
 					meme = await kagApi.memes()
@@ -862,7 +862,7 @@ break
 					client.sendMessage(from, teks, text, {detectLinks: false, quoted: mek})
 					break
 				case 'ptm':
-					if (!isOwner) return reply('Quem é Você? Você não é o paizão ou o fuck')
+					if (!isOwner) return reply('Quem é Você? Você não é o ⏤͟͟͞͞𝑭𝑼𝑪𝑲⛧𝑻𝑹𝑬𝑴✘')
 					if (args.length < 1) return reply('Qual foi mano, esqueceu do texto')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
@@ -982,7 +982,7 @@ break
 					}
                                       break
                 case 'pt3':
-					if (!isadminbot) return reply('Quem é Você? Você não é o paizão ou o fuck')
+					if (!isadminbot) return reply('Quem é Você? Você não é 9 ⏤͟͟͞͞𝑭𝑼𝑪𝑲⛧𝑻𝑹𝑬𝑴✘')
 					if (args.length < 1) return reply('FALTOU O TEXTO')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
